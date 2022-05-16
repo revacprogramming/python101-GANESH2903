@@ -11,18 +11,15 @@ while True:
         break
     try:
         n=int(num)
+        if largest is None or n>largest:
+           largest=n
+        if smallest is None or n<smallest:
+            smallest=n
+        
        
     except:
         print("Invalid input")
-        continue
-    if largest is None:
-       largest = n
-    elif n>largest:
-       largest=n
-    if smallest is None:
-       smallest=n
-    elif n<smallest:
-        smallest=n
+    
     
     
 print("Maximum is", largest)
