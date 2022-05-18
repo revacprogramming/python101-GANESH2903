@@ -1,9 +1,14 @@
-# Lists
-
-####filename = "dataset/romeo.txt"
 fname = input("Enter file name: ")
 fh = open(fname)
-lst = list()
-for line in fh:
-    
-print(line.rstrip())
+x= list()
+y=fh.read()
+words=y.split()
+
+
+for n in words: 
+    if n not in x:
+        x.append(n)
+        
+x.sort()
+print(x)
+
