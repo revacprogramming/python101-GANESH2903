@@ -12,5 +12,4 @@ for line in data:
        for i in range of len(x):
           y.appent(int(x[i]))   
                   sum = sum+y[i]
-  
 print('The sum of numbers in given data is' ,sum)
