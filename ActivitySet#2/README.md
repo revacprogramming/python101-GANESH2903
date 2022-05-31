@@ -32,7 +32,7 @@ system=s;database=d;username=u;password=p
 
 > Input
 ```
-system=s;database=d;username=u;passwd=p
+system=s;database=d;username=u;passwd=p 
 ```
 > Output
 ```
