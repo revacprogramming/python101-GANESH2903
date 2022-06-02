@@ -1,7 +1,7 @@
 
 
 def get_cs():
-    """get string input"""
+    s=input('Enetr a string')
 
 
 def cs_to_lot(cs):
