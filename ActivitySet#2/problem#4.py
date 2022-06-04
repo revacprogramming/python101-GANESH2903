@@ -13,29 +13,31 @@ def cs_to_lot(cs):
   for i in range(ln):
     y=x[i].split('=')
     t=tuple(y)
-    new = l.append(t)
-  return new
+    l.append(t)
+  return l
 
 def lot_to_cs(lot):
   """convert list of strings to connected string"""
   equal = '='
   separate = ';'
   ln=len(lot)
-  for i in range(lot):
+  for i in range(ln):
     lot[i]=equal.join(lot[i])
-  return lot
+  newcs=separate.join(lot)
+  return newcs
     
 def main():
   cs=get_cs()
   lot=cs_to_lot(cs)  # convert connect string to list of tuples
   print(lot)
   
-  cs=lot_to_cs(lot)  # convert list of strings to connect string
-  separate=';'
-  newcs=separate.join(cs)
-  return newcs
+  newcs=lot_to_cs(lot)  # convert list of strings to connect string
+  return print(newcs)
 
 
 if __name__ == '__main__':
-  main()
-print(newcs)
+   main()
+
+
+#  cd ActivitySet#2
+#  python problem#4.py                
