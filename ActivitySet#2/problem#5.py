@@ -1,7 +1,9 @@
 
 
 def get_cs():
-    """get string input"""
+  #s = input('input a string')
+  s = system=s;database=d;username=u;password=p
+  return s
 
 
 def cs_to_dict(cs):
