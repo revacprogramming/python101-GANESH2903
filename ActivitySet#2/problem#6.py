@@ -9,5 +9,9 @@ m.add("vada", 20)
 m.show()
 
 
+
+
+
+
 # cd ActivitySet#2
 # python problem#6.py                
