@@ -1,11 +1,5 @@
+#list
 fname = input("Enter file name: ")
-fh = open(fname)
-x= list()
-y=fh.read()
-words=y.split()
-
-
-for nfname = input("Enter file name: ")
 fh = open(fname)
 x= list()
 y=fh.read()
@@ -18,11 +12,3 @@ for n in words:
         
 x.sort()
 print(x)
-
- in words: 
-    if n not in x:
-        x.append(n)
-        
-x.sort()
-print(x)
-
