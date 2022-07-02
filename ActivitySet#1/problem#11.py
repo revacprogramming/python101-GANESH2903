@@ -14,9 +14,9 @@ for line in handle:
     if line.startswith("From"):
         y=line.split()
         a=y[5]
-	maggy=a.split(':')
-    maharshi=maggy[0]
-    l.append(maharshi)
+	m=a.split(':')
+    h=m[0]
+    l.append(h)
     l.sort()
 for word in l:
     d[word]=d.get(word,0)+1
