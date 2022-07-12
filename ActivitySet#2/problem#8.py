@@ -1,4 +1,8 @@
 class Menu:
+  def __init__(self,food,qty):
+    self.food = food
+    
+  
   
 
 
