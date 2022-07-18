@@ -1,0 +1,1 @@
+n = int(input("At how many instances do you want??")
